@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #343845;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background: #202228;
+  color: white;
+}
+
+.proj-name{
+  padding: 10px;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  align-items: center;
+  list-style: none;
+}
+
+.logincss{
+  /* background: #364349; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10%;
+  
+  /* padding: 300px; */
+}
+
+#btn-login{
+  justify-self: center;
+}
